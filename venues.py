@@ -18,4 +18,4 @@ with open('/home/a4iv1kv14b88/covid_map/outputs/venues_{}.csv'.format(NOW),
     writer.writeheader()
     writer.writerows(response.json())
 copyfile("/home/a4iv1kv14b88/covid_map/outputs/venues_{}.csv".format(NOW),
-             "/home/a4iv1kv14b88/genasys.com/public_html/wp-content/uploads/venues.csv")
+         "/home/a4iv1kv14b88/genasys.com/public_html/wp-content/uploads/venues.csv")
